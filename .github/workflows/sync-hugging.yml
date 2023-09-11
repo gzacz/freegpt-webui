@@ -13,7 +13,7 @@ jobs:
       uses: ramonvc/huggingface-sync-action@v0.0.1
       with:
         github_repo_id: ramonvc/freegpt-webui
-        huggingface_repo_id: monra/freegpt-webui
+        huggingface_repo_id: onhu/fgp
         repo_type: space
         space_sdk: docker
-        hf_token: ${{ secrets.HF_TOKEN }}
+        hf_token: ${{ secrets.HF1_TOKEN }}    
