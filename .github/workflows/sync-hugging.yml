@@ -17,4 +17,3 @@ jobs:
         repo_type: space
         space_sdk: docker
         hf_token: ${{ secrets.HF1_TOKEN }}
-
