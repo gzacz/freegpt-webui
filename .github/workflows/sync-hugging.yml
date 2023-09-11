@@ -18,3 +18,4 @@ jobs:
         space_sdk: docker
         hf_token: ${{ secrets.HF_TOKEN }}
         branch: naga-version
+
