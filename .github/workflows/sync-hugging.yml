@@ -12,7 +12,7 @@ jobs:
     - name: Sync with Hugging Face
       uses: ramonvc/huggingface-sync-action@v0.0.1
       with:
-        github_repo_id: ramonvc/freegpt-webui
+        github_repo_id: gzacz/freegpt-webui
         huggingface_repo_id: sihug/sigc
         repo_type: space
         space_sdk: docker
